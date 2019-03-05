@@ -1,0 +1,42 @@
+<div class="container mt-5">
+  <h3>Costumize your namecard</h3>
+  <form>
+    <div class="namecard-input">
+      <div class="form-group">
+        <input type="name" class="name" placeholder="Your Nmae">
+        <div class="feedback small"></div>
+      </div>
+      <div class="form-group">
+        <input type="url" class="photo" placeholder="Link to your photo">
+        <div class="feedback small"></div>
+      </div>
+      <div class="form-group">
+        <textarea type="textarea" class="introduce" id="introduce"
+          placeholder="Introduce yourself in 200 words"></textarea>
+        <div class="feedback small"></div>
+      </div>
+    </div>
+    <div class="choose-theme form-check-inline">
+      <p>Choose the theme:</p>
+      <div class="light">
+        <input class="light-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="ligth-label" for="inlineRadio1">Light Theme</label>
+      </div>
+      <div class="dark">
+        <input class="dark-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="dark-label" for="inlineRadio2">Dark Theme</label>
+      </div>
+    </div>
+    <div class="submit-input">
+      <input type="submit" class="submit" value="submit">
+    </div>
+  </form>
+</div>
+
+<div class="namecard-output">
+  <div class="mycard clearfix">
+    <img src="" alt="" id="cardphoto">
+    <h3 class="cardname"></h3>
+    <p class="info"></p>
+  </div>
+</div>

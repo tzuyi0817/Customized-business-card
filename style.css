@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+.namecard-input {
+  width: 100%;
+}
+
+.name {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.photo {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.introduce {
+  width: 100%;
+  margin-top: 20px;
+  height: 200px;
+}
+
+p {
+  padding-top: 10px;
+}
+
+.light {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.submit {
+  padding : 5px 10px;
+  border-radius: 5px;
+  background-color: #1a75ff;
+  color: white;
+  cursor: pointer;
+}
+
+.feedback {
+  color: red;
+}
+
+#cardphoto {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+  overflow: auto;
+}
+
+.namecard-output {
+  width: 75%;
+  margin-left: 150px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.dark2 {
+  color: white;
+  background-color: black;
+  height: 250px;
+}
+
+#cardphoto {
+  height: 250px;
+}
+
+.light2 {
+  height: 250px;
+}
